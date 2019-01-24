@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Pomodoro Clock</title>
+   <meta name="description" content="DESCRIPTION">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!--[if lt IE 9]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+</head>
+
+<body>
+
+  <header class="wrapper clearfix">
+      <h1>
+        Front-End Web Development
+      </h1>
+  </header>
+
+  <div class="main-container">
+      <div class="main wrapper clearfix">
+
+              <header>
+                  <h2>
+                    Pomodoro Clock
+                  </h2>
+              </header>
+
+              <section>
+                <div id="controls">
+                  <div class="control-wrapper" id="break">
+                    <div class="control-header">BREAK LENGTH</div>
+                    <div class="control">
+                      <div class="plus1">+</div>
+                      <div class="value1">5</div>
+                      <div class="minus1">-</div>
+                    </div>
+                  </div>
+                  <div class="control-wrapper" id="session">
+                  <div class="control-header">SESSION LENGTH</div>
+                    <div class="control">
+                    <div class="plus">+</div>
+                    <div class="value">25</div>
+                    <div class="minus">-</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circle">
+                  <div class="clock">
+                    <div class="colored session"></div>
+                    <p id="name"></p>
+                    <p id="time" class="value">25</p>
+                  </div>
+                </div>
+
+                <div id="button-container">
+                  <button id="start" type="button">START</button>
+                  <button id="stop" type="button">STOP</button>
+                  <button id="reset" type="button">RESET</button>
+                </div><!-- button-container -->
+            </section>
+
+      </div> <!-- #main -->
+  </div> <!-- #main-container -->
+
+
+  <footer class="wrapper">
+      <p>Created by <a href="https://github.com/krittiyaclark/Pomodoro-Clock" target="_blank" Krittiya Clark</a>Krittiya Clark</p>
+  </footer>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
